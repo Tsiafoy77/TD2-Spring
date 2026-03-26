@@ -1,4 +1,4 @@
-package com.td3.students;
+package com.td3.students.model;
 
 public class Student {
     private String reference;
@@ -14,7 +14,6 @@ public class Student {
         this.age = age;
     }
 
-    // Getters + Setters (obligatoire)
     public String getReference() { return reference; }
     public void setReference(String reference) { this.reference = reference; }
     public String getFirstName() { return firstName; }
